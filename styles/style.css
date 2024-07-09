@@ -1,3 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  font-family: "Inter Tight", sans-serif;
+}
+
 * {
   box-sizing: border-box;
   margin: 0px;
@@ -34,4 +40,87 @@ header {
   height: 66px;
   width: 208px;
   margin-top: 32px;
+}
+
+.skills {
+  text-align: center;
+  margin: 0 auto;
+  /* width: 152px;
+  height: 39px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 48px;
+  padding: 47px;
+}
+.section-title {
+  width: 852px;
+  height: 39px;
+  padding: 24px;
+  margin-bottom: 24px;
+}
+.section-desroption {
+  width: 852px;
+  height: 52px;
+}
+.web-1 {
+  margin-top: 106px;
+  padding-left: 245px;
+  padding-right: 249px;
+}
+.pic {
+  display: flex;
+}
+main {
+  margin-top: 74px;
+}
+.first-header {
+  margin-bottom: 16px;
+}
+.first-paragraph {
+  margin-bottom: 44px;
+}
+.pic2 {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  /* display: flex; */
+  padding-left: 245px;
+  padding-right: 249px;
+}
+.tryout {
+  display: grid;
+  flex-direction: row;
+
+  padding-left: 245px;
+  padding-right: 249px;
+}
+.skills-2 {
+  text-align: center;
+  margin: 0 auto;
+  /* width: 152px;
+    height: 39px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 48px;
+  padding: 47px;
+}
+
+.youtube {
+  margin-top: 48px;
+  padding-left: 144px;
+  padding-right: 152px;
+  width: 1076px;
+  height: 550px;
+}
+.youtube-fixed {
+  margin-top: 48px;
+  padding-left: 144px;
+  padding-right: 152px;
+  /* text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; */
 }
