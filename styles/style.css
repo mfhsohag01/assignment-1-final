@@ -89,8 +89,8 @@ main {
   padding-right: 249px;
 }
 .tryout {
-  display: grid;
-  flex-direction: row;
+  display: flex;
+  gap: auto;
 
   padding-left: 245px;
   padding-right: 249px;
@@ -123,4 +123,14 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center; */
+}
+.skills-design {
+  display: flex;
+  padding: 150px;
+  margin: 0 auto;
+}
+.html-design {
+  box-shadow: #fff6f4;
+  width: 364px;
+  height: 299px;
 }
