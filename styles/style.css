@@ -209,17 +209,47 @@ main {
   height: 314px;
   padding: 150px;
   margin: 0 auto;
+  display: flex;
 }
 .last-bg {
   margin-left: 224px;
-  margin-bottom: 48px;
+  margin-bottom: 24px;
+  width: 50%;
+  margin: 0 auto;
+  padding: 48px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  justify-content: center;
 }
 
 .why {
   max-width: 548px;
   display: flex;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  justify-content: center;
 }
-.last-sub {
+/* .last-sub {
   padding-bottom: 120px;
   margin-bottom: 120px;
+} */
+
+.last-try-again {
+  margin-top: 200px;
+  display: flex;
+  gap: 32px;
+  justify-content: space-between;
+  width: 150px;
+  height: 32px;
 }
+
+/* .footer-heading {
+  justify-content: space-between;
+  width: 50px;
+  height: 16px;
+  gap: 50px;
+} */
